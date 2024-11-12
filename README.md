@@ -5,8 +5,8 @@
 
 - **Properties**:
     - **admin_id**: Unique identifier (auto-generated, mandatory)
-    - **Email**: Admin's email (must be unique, mandatory)
-    - **Password**: Admin's login password (mandatory)
+    - **email**: Admin's email (must be unique, mandatory)
+    - **password**: Admin's login password (mandatory)
       
 - **Uniqueness**:
     - Each admin has a **unique email**.
@@ -42,7 +42,7 @@
 
 - **Properties**:
     - **room_id**: Unique identifier (auto-generated, mandatory)
-    - **Room type**: Type of room (mandatory)
+    - **room_type**: Type of room (mandatory)
     - **price**: Room's price (mandatory)
     - **description**: Room's description (mandatory)
       
