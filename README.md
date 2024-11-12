@@ -20,17 +20,17 @@
 
 - **Properties**:
     - **user_id**: Unique identifier (auto-generated, mandatory)
-    - **Name**: Users’s full name (mandatory)
-    - **Email**: User's email (must be unique, mandatory)
-    - **Phone Number**: User's contact number (must be unique, mandatory)
-    - **Date of birth**: User's date of birth (mandatory)
-    - **Password**: User’s login password (mandatory)
+    - **name**: Users’s full name (mandatory)
+    - **email**: User's email (must be unique, mandatory)
+    - **phone_num**: User's contact number (must be unique, mandatory)
+    - **dob**: User's date of birth (mandatory)
+    - **password**: User’s login password (mandatory)
       
 - **Uniqueness**:
-    - **Email** and **phone number** must be **unique**.
+    - **email** and **phone number** must be **unique**.
       
 - **Optional/Mandatory**:
-    - **Name, email, phone number, and password** are **mandatory** for sign-up.
+    - **name, email, phone_num, and password** are **mandatory** for sign-up.
     - Rating rooms is **optional**.
       
 - **Relationships**:
@@ -43,8 +43,8 @@
 - **Properties**:
     - **room_id**: Unique identifier (auto-generated, mandatory)
     - **Room type**: Type of room (mandatory)
-    - **Price**: Room's price (mandatory)
-    - **Description**: Room's description (mandatory)
+    - **price**: Room's price (mandatory)
+    - **description**: Room's description (mandatory)
       
 - **Uniqueness**:
     - **room_id** is unique to each room.
@@ -67,7 +67,7 @@
     - **room_id:** A reference to room(mandatory)
     - **checkin_date**: Booking date (mandatory)
     - **checkout_date**: End date (mandatory)
-    - **Amount**: Amount paid by the user (mandatory)
+    - **amount**: Amount paid by the user (mandatory)
       
 - **Uniqueness**:
     - **booking ID** is unique to each booking.
@@ -86,8 +86,8 @@
 - **Properties**:
     - **payment_id**: Unique identifier (auto-generated, mandatory)
     - **booking_id**: Reference to the related booking (mandatory)
-    - **Amount**: Amount paid by the user (mandatory)
-    - **Details**: Details of the payment (mandatory)
+    - **amount**: Amount paid by the user (mandatory)
+    - **details**: Details of the payment (mandatory)
       
 - **Uniqueness**:
     - **payment_id** is unique.
