@@ -45,14 +45,17 @@
     - **room_id**: Unique identifier (auto-generated, mandatory)
     - **room_type**: Type of room (mandatory)
     - **price**: Room's price (mandatory)
+    - **quantity**:Number of available rooms of this type (mandatory)
     - **description**: Room's description (mandatory)
+    - **adult**: Maximum number of adult that can stay in the room (mandatory)
+    - **children**: Maximum number of children that can stay in the room (mandatory)
     - **status**: Whether the room is available for booking(mandatory).
       
 - **Uniqueness**:
     - **room_id** is unique to each room.
       
 - **Optional/Mandatory**:
-    - **room_id, room_type, price**, **status** are **mandatory**.
+    - **room_id, room_type, price**, **adult**, **children**, **quantity**, **status** are **mandatory**.
     - **description** is optional
       
 - **Relationships**:
