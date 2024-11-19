@@ -50,6 +50,7 @@
     - **adult**: Maximum number of adult that can stay in the room (mandatory)
     - **children**: Maximum number of children that can stay in the room (mandatory)
     - **status**: Whether the room is available for booking(mandatory).
+    - **room_img**: Images of the room(mandatory).
       
 - **Uniqueness**:
     - **room_id** is unique to each room.
