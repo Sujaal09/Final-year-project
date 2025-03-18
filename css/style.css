@@ -1,0 +1,30 @@
+:root{
+    --teal: #228bee;
+    --teal_hover: #22c2ee;
+}
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+.h-font{
+    font-family: 'Merinda', cursive;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+    margin: 0;
+}
+.custom-bg{
+    background-color: var(--teal);
+    border: 1px solid var(--teal);
+}
+.custom-bg:hover{
+    background-color: var(--teal_hover);
+    border-color: var(--teal_hover);
+}
+
+.custom-alert{
+    position: fixed;
+    top: 80px;
+    right: 25px;
+}
